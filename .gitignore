@@ -6,3 +6,6 @@ local.properties
 build
 captures
 .externalNativeBuild
+gradle
+gradlew
+gradlew.bat
