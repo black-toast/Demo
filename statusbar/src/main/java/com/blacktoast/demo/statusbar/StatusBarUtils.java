@@ -17,7 +17,7 @@ import java.util.Properties;
 
 /**
  * 工具类
- * Created by cyh on 2018/4/2.
+ * Created by blacktoast on 2018/4/2.
  */
 
 public class StatusBarUtils {
