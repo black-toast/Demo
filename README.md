@@ -20,11 +20,11 @@ Blog文章demo
 
 > 该demo**可以适配屏幕**，**也可以适配字体**，保证字体不会因为系统设置更改而变化
 
-- 效果图（**适配前**，**左：**480像素密度[1080*1920 4.95寸 Nexus 5] **右：**420像素密度[1080*1920 5.2寸 Nexus 5X]）
+- 效果图（**适配前**，**左**：480像素密度[1080*1920 4.95寸 Nexus 5] **右**：420像素密度[1080*1920 5.2寸 Nexus 5X]）
 
 <img src="screenshot/adaptive1.png" width="30%" /><img src="screenshot/adaptive2.png" width="30%" />
 
-- 效果图（**适配后**，**左：**480像素密度[1080*1920 4.95寸 Nexus 5] **右：**420像素密度[1080*1920 5.2寸 Nexus 5X]）
+- 效果图（**适配后**，**左**：480像素密度[1080*1920 4.95寸 Nexus 5] **右**：420像素密度[1080*1920 5.2寸 Nexus 5X]）
 
 <img src="screenshot/adaptive3.png" width="30%" /><img src="screenshot/adaptive4.png" width="30%" />
 
