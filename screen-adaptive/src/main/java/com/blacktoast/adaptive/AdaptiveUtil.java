@@ -73,6 +73,20 @@ public final class AdaptiveUtil {
     }
 
     /**
+     * 验证头条适配方案
+     */
+    @Deprecated
+    public static void resetDensityOnToutiao(ContextWrapper app) {
+        DisplayMetrics displayMetrics = app.getResources().getDisplayMetrics();
+
+        // 头条适配方案
+        float targetDensity = displayMetrics.widthPixels / 360;
+        displayMetrics.densityDpi = (int) (160 * targetDensity);
+        displayMetrics.density = targetDensity;
+        displayMetrics.scaledDensity = displayMetrics.density;
+    }
+
+    /**
      * 获取像素密度
      * @param context    上下文
      */

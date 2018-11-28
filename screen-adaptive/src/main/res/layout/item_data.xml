@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="vertical">
+    android:layout_height="50dp">
     <TextView
         android:id="@+id/tv_data"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:textSize="20sp"
         android:padding="10dp"
         android:text="1"/>
@@ -15,5 +14,6 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="0.3dp"
+        android:layout_alignParentBottom="true"
         android:background="@color/colorAccent"/>
-</LinearLayout>
+</RelativeLayout>

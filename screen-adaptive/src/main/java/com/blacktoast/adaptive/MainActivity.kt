@@ -11,8 +11,11 @@ import kotlinx.android.synthetic.main.activity_main.*
 class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
-        // 适配当前页面
+        // 适配当前页面，如果验证头条适配方案，请注释此代码
         AdaptiveUtil.resetDensity(MainActivity@this)
+
+        // 如果想验证头条适配方案，请打开此注释
+//        AdaptiveUtil.resetDensityOnToutiao(MainActivity@this)
 
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -26,7 +29,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun DisplayMetrics.toDetailString() : String {
-        return "DisplayMetrics{density=" + density + ", density=" + densityDpi + ", width=" + widthPixels +
+        return "DisplayMetrics{density=" + density + ", densityDpi=" + densityDpi + ", width=" + widthPixels +
                 ", height=" + heightPixels + ", scaledDensity=" + scaledDensity +
                 ", xdpi=" + xdpi + ", ydpi=" + ydpi + "}"
     }
