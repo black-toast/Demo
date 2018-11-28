@@ -1,7 +1,7 @@
 # Demo
 Blog文章demo
 
-## StatusBarDemo
+## Android适配---沉浸式状态栏(statusbar)
 
 - 效果图
 
@@ -16,7 +16,7 @@ Blog文章demo
     StatusBarUtils.setStatusTextColor(!isNight, MainActivity.this);
 ```
 
-## ScreenAdaptiveDemo
+## 你该知道的Android屏幕适配新姿势(screen-adaptive)
 
 > 该demo**可以适配屏幕**，**也可以适配字体**，保证字体不会因为系统设置更改而变化
 
